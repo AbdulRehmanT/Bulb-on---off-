@@ -1,0 +1,30 @@
+.bulbApp {
+    background-color: #fff;
+    color: #006992;
+    width: 320px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.bulb {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bulb.on {
+  background-color: #eca400;
+}
+
+.bulb.off {
+  background-color: gray;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
